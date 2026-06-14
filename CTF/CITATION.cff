@@ -1,0 +1,66 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite both the paper and the software."
+
+title: "Climate-Temperature-Forecasting: A Reproducible Multimodal Machine Learning Pipeline for Global Surface Temperature Prediction"
+version: "1.0.0"
+date-released: "2026-01-01"
+doi: "10.5281/zenodo.20686696"
+
+authors:
+  - family-names: "Choudhary"
+    given-names: "Neeraj"
+    orcid: "https://orcid.org/0009-0008-9470-0281"
+    affiliation: "Department of Computer Engineering and Technology, Dr. Vishwanath Karad MIT-World Peace University, Pune, India"
+    email: "neeraj.choudhary@mitwpu.edu.in"
+
+  - family-names: "Kulkarni"
+    given-names: "Sheetal Abhijit"
+    orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
+    affiliation: "Department of Computer Engineering and Technology, Dr. Vishwanath Karad MIT-World Peace University, Pune, India"
+    email: "sheetal.kulkarni@mitwpu.edu.in"
+
+abstract: >
+  A fully reproducible multimodal machine learning framework for global surface
+  temperature forecasting, integrating 144 years (1880-2024) of Berkeley Earth
+  temperature anomalies, NOAA Mauna Loa CO2 concentrations, and SILSO
+  international sunspot numbers. Five deep learning architectures (LSTM, Bi-LSTM,
+  GRU, Transformer, CNN-LSTM) are trained with Huber loss and benchmarked against
+  four ML baselines in a nine-model evaluation. CNN-LSTM achieves the best
+  performance (MAE=0.0944 degC, RMSE=0.1175 degC, R2=0.6781, Murphy Skill=0.7462).
+  Decadal ensemble projections (2025-2035) forecast anomalies of 1.25 degC,
+  remaining below the Paris Agreement 1.5 degC threshold.
+  Repository includes 4 notebooks, 9 Python modules, 23 figures (9 EDA + 14 results),
+  and 4 result tables.
+
+keywords:
+  - "global temperature forecasting"
+  - "CNN-LSTM"
+  - "multimodal machine learning"
+  - "climate informatics"
+  - "CO2 radiative forcing"
+  - "deep learning"
+  - "time series"
+  - "Paris Agreement"
+  - "solar activity"
+  - "decadal forecasting"
+  - "Murphy Skill Score"
+  - "Huber loss"
+
+license: "MIT"
+repository-code: "https://github.com/Neeraj15075336256/Climate-Temperature-Forecasting"
+url: "https://github.com/Neeraj15075336256/Climate-Temperature-Forecasting"
+
+preferred-citation:
+  type: article
+  title: "Global Temperature Forecasting Using Multimodal Machine Learning: An Empirical Study Integrating CO2 and Solar Activity Data"
+  authors:
+    - family-names: "Choudhary"
+      given-names: "Neeraj"
+    - family-names: "Kulkarni"
+      given-names: "Sheetal Abhijit"
+  journal: "Climatic Change"
+  publisher:
+    name: "Springer Nature"
+  year: 2026
+  doi: "10.XXXX/climatic-change.XXXX"
+  issn: "1573-1480"
