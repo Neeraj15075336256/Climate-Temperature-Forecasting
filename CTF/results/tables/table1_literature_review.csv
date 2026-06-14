@@ -1,0 +1,26 @@
+Reference,Method / Model,Domain / Dataset,Key Finding,Gap Addressed by This Work
+"Hochreiter & Schmidhuber (1997)",LSTM,Sequence modeling,Solved vanishing gradient,Core architecture baseline
+"Vaswani et al. (2017)",Transformer,NLP / sequence,Self-attention SOTA,Attention instability in climate identified here
+"Reichstein et al. (2019)",Hybrid physics-ML,Earth system science,Physics-data models generalise better,Motivates CO2+solar multimodal input
+"Bochenek & Ustrnul (2022)",LSTM survey,Weather & climate,LSTM superior for temperature series,Benchmark for architecture selection
+"Rasp & Lerch (2018)",Neural post-processing,Ensemble weather,Better than classical ensembles,Motivates DL over GCM post-processing
+"Pathak et al. (2022)",FourCastNet (AFNO),Global weather,ECMWF-equivalent skill,State-of-the-art DL weather benchmark
+"Karpatne et al. (2017)",Theory-guided DS,Scientific discovery,Physics in loss functions,Inspires Huber loss with physical constraints
+"Eyring et al. (2016)",CMIP6 GCMs,Multi-model climate,Physics-informed projections,Primary benchmark for 1.5°C comparison
+"Ham et al. (2019)",CNN+LSTM (Nature),ENSO forecasting,18-month lead ENSO forecast,Closest architectural precedent; extended to decadal
+"Lim et al. (2021)",Temporal Fusion Transformer,Multi-horizon TS,Interpretable forecasting,Informs Transformer adaptation
+"Rolnick et al. (2022)",ML policy review,Climate action,ML for climate prioritised,Frames Paris Agreement evaluation
+"Zhao et al. (2017)",Crop yield modeling,Agricultural climate,1°C increment reduces yields,Motivates decadal forecast accuracy
+"Greff et al. (2017)",LSTM search space,Sequential learning,Variant comparison,Justifies two-layer LSTM stack
+"Chung et al. (2014)",GRU evaluation,Sequential learning,GRU competitive with LSTM,Motivates GRU as efficient baseline
+"Friedlingstein et al. (2023)",Global carbon budget,CO2 emissions,36.8 GtCO2/yr in 2023,Grounds CO2 trajectory extrapolation
+"Gruber et al. (2019)",Ocean CO2 sink,Carbon cycle,Quantified ocean CO2 uptake,CO2 forcing context
+"Hersbach et al. (2020)",ERA5 reanalysis,Global climate,High-res hourly climate record,Alternative dataset for future work
+"Ramachandran et al. (2022)",LSTM forecasting,Regional climate,Competitive MAE on temperatures,Direct LSTM baseline comparator
+"Rasp et al. (2020)",WeatherBench,Data-driven weather,Standardised evaluation protocol,Informs Murphy Skill Score selection
+"Salcedo-Sanz et al. (2020)",ML fusion in EO,Earth observation,Comprehensive fusion taxonomy,Contextualises multimodal fusion strategy
+"Kingma & Ba (2015)",Adam optimiser,DL optimisation,Adaptive learning rate,Optimiser choice justification
+"LeCun et al. (2015)",Deep learning (Nature),General ML,Foundational DL survey,Theoretical basis for CNN-LSTM
+"Kalnay et al. (1996)",NCEP/NCAR Reanalysis,Atmospheric analysis,40-yr climate baseline,Historical temperature reference
+"IPCC AR6 WGI (2021)",Multi-model GCM ensemble,Climate projections,1.5°C threshold quantified,Primary policy reference
+"Rohde & Hausfather (2020)",Berkeley Earth record,Surface temperature,144-year land-ocean dataset,Primary target variable dataset

@@ -1,0 +1,42 @@
+# ============================================================
+# Climate-Temperature-Forecasting — pip requirements
+# Python 3.10+ | Tested on Google Colab (T4 GPU) and Ubuntu 22.04
+# ============================================================
+
+# ── Core data science ──────────────────────────────────────
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0
+scipy>=1.11.0
+
+# ── Deep learning ──────────────────────────────────────────
+tensorflow>=2.15.0,<2.18.0          # includes Keras 3
+# Alternative: tensorflow-cpu>=2.15.0 for CPU-only environments
+
+# ── Machine learning baselines ─────────────────────────────
+scikit-learn>=1.4.0
+xgboost>=2.0.0
+lightgbm>=4.0.0
+joblib>=1.3.0
+
+# ── Time-series statistics ─────────────────────────────────
+statsmodels>=0.14.0                 # ADF test, STL decomposition, ACF/PACF
+
+# ── Visualisation ──────────────────────────────────────────
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.18.0
+kaleido>=0.2.1                      # static Plotly export
+
+# ── Utilities ──────────────────────────────────────────────
+requests>=2.31.0
+tqdm>=4.66.0
+PyYAML>=6.0
+
+# ── Notebook support ───────────────────────────────────────
+jupyter>=1.0.0
+ipykernel>=6.29.0
+nbformat>=5.9.0
+
+# ── Optional: model explainability ─────────────────────────
+# shap>=0.44.0
+# lime>=0.2.0.1

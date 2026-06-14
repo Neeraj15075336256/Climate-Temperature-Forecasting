@@ -1,0 +1,4 @@
+Dataset,Period,Frequency,Source,Variable
+Berkeley Earth Land/Ocean Temperature,1880-2024,Monthly,berkeleyearth.org,"Temperature anomaly (°C) (Rohde and Hausfather 2020)"
+NOAA Mauna Loa CO2,1958-2024,Monthly,gml.noaa.gov,"CO2 concentration (ppm) (NOAA GML 2025)"
+SILSO Sunspot Number,1749-2024,Monthly,sidc.be,"International sunspot number (Clette and Lefevre 2015)"

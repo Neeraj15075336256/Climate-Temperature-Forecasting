@@ -1,0 +1,10 @@
+Model,MAE (°C),RMSE (°C),MAPE (%),R2,Skill Score,Notes
+CNN-LSTM,0.0944,0.1175,6.98,0.6781,0.7462,Best deep learning model
+GRU,0.1074,0.1383,7.87,0.5538,0.7013,
+Transformer,0.1146,0.1453,8.93,0.5078,0.6862,
+Bi-LSTM,0.1313,0.1557,9.61,0.4344,0.6636,
+LSTM,0.1335,0.1586,9.75,0.4135,0.6575,
+LightGBM,0.1018,0.1317,,0.6173,,ML baseline
+Random Forest,0.1216,0.1522,,0.4884,,ML baseline
+XGBoost,0.1262,0.1615,,0.4243,,ML baseline
+Ridge regression,0.0064*,0.0079*,,0.9986*,,Excluded from ensemble - linear extrapolation artefact

@@ -1,0 +1,54 @@
+MIT License
+
+Copyright (c) 2026 Neeraj Choudhary, Sheetal Abhijit Kulkarni
+Department of Computer Engineering and Technology,
+Dr. Vishwanath Karad MIT–World Peace University, Pune, India
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------------
+
+THIRD-PARTY DATA LICENCES
+==========================
+
+This repository uses the following publicly available datasets. Their use is
+governed by the terms specified by their respective providers:
+
+1. Berkeley Earth Surface Temperature (BEST)
+   Source  : https://berkeleyearth.org/data/
+   Licence : Creative Commons Attribution 4.0 International (CC BY 4.0)
+   Citation: Rohde, R.A. & Hausfather, Z. (2020). The Berkeley Earth land/
+             ocean temperature record. Earth Syst. Sci. Data 12, 3469–3479.
+             https://doi.org/10.5194/essd-12-3469-2020
+
+2. NOAA Mauna Loa Atmospheric CO₂ Concentration (Keeling Curve)
+   Source  : https://gml.noaa.gov/ccgg/trends/
+   Licence : Public Domain / US Government Open Data
+   Citation: NOAA Global Monitoring Laboratory (2025). Trends in Atmospheric
+             Carbon Dioxide. https://gml.noaa.gov/ccgg/trends/
+
+3. SILSO International Sunspot Number V2.0
+   Source  : https://www.sidc.be/silso/datafiles
+   Licence : Creative Commons Attribution–Non-Commercial 4.0 (CC BY-NC 4.0)
+   Citation: Clette, F. & Lefèvre, L. (2015). SILSO Sunspot Number V2.0.
+             WDC-SILSO, Royal Observatory of Belgium.
+             https://doi.org/10.24414/qnza-ac80
+
+Please ensure compliance with each dataset's licence when redistributing or
+publishing work derived from this repository.

@@ -1,0 +1,7 @@
+Hyperparameter,Value / Description
+Loss function,"Huber loss (delta = 1.0) — robust to El Nino outliers"
+Optimiser / Learning rate,"Adam (Kingma and Ba 2015) (beta1 = 0.9, beta2 = 0.999); initial LR = 1e-3 with ReduceLROnPlateau (factor 0.5, patience 5)"
+Batch size / Max epochs,"32 / 25-50 (early stopping: patience = 10 epochs on validation loss)"
+Input window / Stride,36 months (3 years) / 1 month
+Train / Validation / Test split,1880-2017 / 2017-2018 / 2018-2025
+Normalisation,"StandardScaler fitted on training partition only; random seed = 42"
